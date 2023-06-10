@@ -1,38 +1,126 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-box {
+  width: 80%;
+  border-bottom: 1px solid #0d6efd;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+.container-box .card {
   text-align: center;
+  min-width: 240px !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-title span {
+  color: rgba(0, 0, 0, 0.425);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card p {
+  margin: 0;
 }
+ .free:hover {
+     background-color: #0d6efd !important;
+     color: white !important;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ .text {
+  width: 45%;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+ }
+
+ .text h1 {
+  font-size: 64px;
+  font-weight: 200;
+ }
+
+
+ header .container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+ }
+
+ header span {
+  font-size: 24px;
+ }
+
+ header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+ }
+
+ header li {
+  padding: 8px;
+ }
+
+ header .last {
+  border: 1px solid rgba(0, 0, 0, 0.589);
+  border-radius: 10px;
+ }
+
+ header a {
+  color: black;
+  text-decoration: none;
+ }
+
+ header a:hover {
+  text-decoration: underline;
+ }
+
+ .last:hover{
+  background-color: #0d6efd;
+  
+ }
+
+ .last a:hover {
+  color: white;
+  text-decoration: none;
+ }
+
+ .first img {
+  width: 30px;
+ }
+
+ footer{
+  width: 80%;
+  padding-top: 80px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ footer .nav {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ .nav ul {
+  list-style-type: none;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .nav a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.555);
+ }
+
+ .nav .first {
+  font-size: 20px;
+  font-weight: 500;
+ }
+
+ .nav a:hover {
+  text-decoration: underline;
+ }
+
+ 
