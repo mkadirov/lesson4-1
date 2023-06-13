@@ -1,0 +1,37 @@
+footer{
+    width: 80%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+   }
+  
+   footer .nav {
+    display: flex;
+    flex-direction: column;
+   }
+  
+   .nav ul {
+    list-style-type: none;
+   }
+  
+   .nav a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.555);
+   }
+  
+   .nav .first {
+    font-size: 20px;
+    font-weight: 500;
+   }
+  
+   .first img {
+    width: 30px;
+   }
+  
+   .nav a:hover {
+    text-decoration: underline;
+   }
+  
