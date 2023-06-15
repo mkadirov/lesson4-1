@@ -13,8 +13,7 @@ class Card extends Component {
         className = "btn btn-primary mt-3 d-block"
       }
 
-      return <div className
-      ="card">
+      return <div className="card">
       <h5 className="card-header">{card.className}</h5>
       <div className="card-body">
       <h2 className="card-title">${card.price} <span> / mo</span></h2>
